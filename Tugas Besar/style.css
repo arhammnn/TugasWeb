@@ -1,0 +1,132 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;   
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+/* Body */
+body {
+    min-height: 200vh;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+/* banner */
+.banner {
+    background: url("img/Background.jpg")
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+
+footer {
+    height: 250px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+.footer {
+    background-color: rgb(129, 126, 126);
+    padding: 150px 0;
+    position: relative;
+    bottom: 0;
+    width: 100;
+    height: 622px;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h2 a {
+    font-size: 20px;
+    color: rgba(207, 205, 205, 0.959);
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer a h2 {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col h4 {
+    padding-left: 22px;
+    color: rgba(207, 205, 205, 0.959);
+    padding-top: 10px;
+}
+.footer-col ul li a {
+    color: rgb(180, 173, 173);
+    text-decoration: none;
+    display: block;
+    margin: 0 0 0rem;
+}
+ul li a {
+    padding-top: 30px;
+}
+.footer-sosmed {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-sosmed ul a {
+    text-decoration: none;
+    color: rgb(180, 173, 173);
+    padding-right: 20px;
+}
+.footer-sosmed h4 {
+    padding-left: 22px;
+    color: rgba(207, 205, 205, 0.959);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.powered p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 130px;
+    color: rgb(189, 189, 189);
+}
+.bi-instagram {
+    font-size: 25px;
+}
+.bi-facebook {
+    font-size: 25px;
+}
+.bi-twitter {
+    font-size: 25px;
+}
+
+/* DESKOP VERSION */
+@media (min-width: 1200px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid green;
+        padding-bottom: 5px;
+        margin-bottom: -5px;
+    }
+}
